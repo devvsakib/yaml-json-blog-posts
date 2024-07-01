@@ -1,0 +1,43 @@
+{
+  "title": "Demo JSON File",
+  "description": "This file demonstrates various features of our YAML/JSON viewer.",
+  "sections": [
+    {
+      "name": "Text Content",
+      "content": "This is a **simple** text content with _italic_ and **bold** formatting."
+    },
+    {
+      "name": "List Example",
+      "items": ["Item 1", "Item 2", "Item 3"]
+    },
+    {
+      "name": "Nested Structure",
+      "details": {
+        "key1": "value1",
+        "key2": "value2",
+        "key3": {
+          "subkey1": "subvalue1",
+          "subkey2": "subvalue2"
+        }
+      }
+    },
+    {
+      "name": "YouTube Video",
+      "video": "[yt:dQw4w9WgXcQ]"
+    },
+    {
+      "name": "Image Example",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "name": "Mixed Data Types",
+      "types": {
+        "string": "This is a string",
+        "number": 42,
+        "boolean": true,
+        "null_value": null,
+        "code": "```\nfunction demo() {\n  console.log(\"Hello, World!\");\n}\n```"
+      }
+    }
+  ]
+}
